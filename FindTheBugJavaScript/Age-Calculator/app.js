@@ -31,6 +31,7 @@ function calcAge(age) {
 
   //display age to UI
   displayAge(year, day, month);
+  displayAge(year, month, day);
 }
 
 function displayAge(y, m, d) {
