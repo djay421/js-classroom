@@ -59,6 +59,6 @@ function arrayLowToHigh(low, high) {
 const LOWERCASE_CHAR_CODES = arrayLowToHigh(97, 122);
 const UPPERCASE_CHAR_CODES = arrayLowToHigh(65, 90);
 const NUMBER_CHAR_CODES = arrayLowToHigh(48, 57);
-const SYMBOL_CHAR_CODES = arrayLowToHigh(33, 47)
+const SYMBOL_CHAR_CODES = arrayLowToHigh(123, 126)
   .concat(arrayLowToHigh(58, 64))
   .concat(arrayLowToHigh(91, 96));

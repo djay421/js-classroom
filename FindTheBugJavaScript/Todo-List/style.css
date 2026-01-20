@@ -76,7 +76,7 @@ form button {
   flex: 1;
 }
 .completed {
-  text-decoration: underline;
+  text-decoration: line-through;
 }
 .fade-away {
   transform: translateX(10rem);

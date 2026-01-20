@@ -35,7 +35,7 @@ function getInfo(apiURL) {
       intelligenceEl.innerText = data.powerstats.intelligence;
       strengthEl.innerText = data.powerstats.strength;
       speedEl.innerText = data.powerstats.speed;
-      durableEl.innerText = data.powerstats.speed;
+      durableEl.innerText = data.powerstats.durability;
       powerEl.innerText = data.powerstats.power;
       combatEl.innerText = data.powerstats.combat;
     })

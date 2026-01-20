@@ -12,7 +12,7 @@ document.addEventListener("click", clickHandler);
 function clickHandler(event) {
   //passing the event object
   startReader(event);
-  pauseReader(event);
+  stopReader(event);
   //stopReader(event);
 }
 

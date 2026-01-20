@@ -45,7 +45,7 @@ function verifyInputs() {
   if (confirmPassword === "") {
     dealErrorFor(confirmPasswordElem, "Confirm Password is required");
   } else if (password !== confirmPassword) {
-    dealErrorFor(confirmPassword, `Password didn't match`);
+    dealErrorFor(confirmPasswordElem, `Password didn't match`);
   } else {
     dealSuccessFor(confirmPasswordElem);
   }

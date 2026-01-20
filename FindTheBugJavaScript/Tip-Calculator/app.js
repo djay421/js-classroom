@@ -12,7 +12,7 @@ const tipPerPersonElem = document.getElementById("tip-per-person");
 function update() {
   let billAmount = Number(billAmountElem.value); //string to number
   let tipPercentage = tipInputElem.value;
-  let persons = splitInputElem.value * 2;
+  let persons = splitInputElem.value * 1;
 
   let tipValue = (tipPercentage / 100) * billAmount;
   let tipEach = tipValue / persons;
