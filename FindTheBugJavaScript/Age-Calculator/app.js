@@ -30,7 +30,6 @@ function calcAge(age) {
   let day = Math.floor(remainingMonth * 30); //15
 
   //display age to UI
-  displayAge(year, day, month);
   displayAge(year, month, day);
 }
 
